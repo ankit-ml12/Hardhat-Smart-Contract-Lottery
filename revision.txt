@@ -45,3 +45,15 @@ push{
     2hl
 }
  =========================================
+
+Hardhat has a companion npm package that acts as a shorthand for npx hardhat, and at the same time, it enables command-line completions in your terminal.
+
+This package, hardhat-shorthand, installs a globally accessible binary called hh that runs your locally installed hardhat.
+
+ yarn global add hardhat-shorthand
+ how just write hh compile to run commpile or for any hardhat command
+===================================================
+push{
+    3hl
+} 
+===================================================
