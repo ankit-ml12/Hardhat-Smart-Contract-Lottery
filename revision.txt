@@ -1,0 +1,35 @@
+harhdat setupp
+yarn add --dev harhdat
+yarn harhdat
+install all dependency
+
+add this basic dependency
+require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-waffle")
+require("@nomiclabs/hardhat-etherscan")
+require("hardhat-deploy")
+require("solidity-coverage")
+require("hardhat-gas-reporter")
+require("hardhat-contract-sizer")
+require("dotenv").config()
+
+change solidity version to 0.8.7 in config.js
+start working on smartcontracts
+we write a smart contract on the basis of this structure:- 
+
+lotter:- 
+enter the lottery by paying some amount
+pack a random winner
+winner to be selected every minute or hour
+
+we use:- 
+chainlink oracle =>randomness
+chainlink keeper =>automation
+=======================================================
+Events:- 
+whenever we update our dynamic size data structure we want to emit Events
+
+before starting vrf 
+push{
+    1hl
+}
