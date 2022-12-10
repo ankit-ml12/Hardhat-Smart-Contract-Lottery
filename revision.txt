@@ -2,6 +2,7 @@ harhdat setupp
 yarn add --dev harhdat
 yarn harhdat
 install all dependency
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
 
 add this basic dependency
 require("@nomicfoundation/hardhat-toolbox");
@@ -33,3 +34,14 @@ before starting vrf
 push{
     1hl
 }
+===========================================================
+import this chain link contract
+import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+ and then yarn add --dev @chainlink/contracts
+
+ update make into smart contract
+ =====================================
+push{
+    2hl
+}
+ =========================================
